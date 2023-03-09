@@ -76,6 +76,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .grid--center-v {
     align-items: center;
 }
@@ -148,4 +152,8 @@ body {
 
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+.center-text {
+    text-align: center;
 }
