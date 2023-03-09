@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -15,7 +18,7 @@
 </head>
 
 <body>
-    <header class="header sticky">
+    <header class="header">
         <a href="#">
             <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo" />
         </a>
@@ -119,18 +122,78 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container-logo">
-                <h2 class="main-logo name">as featured in</h2>
-                <div class="logos">
-                    <img src="img/logos/business-insider.png" alt="Customer photo" />
-                    <img src="img/logos/forbes.png" alt="Customer photo" />
-                    <img src="img/logos/techcrunch.png" alt="Customer photo" />
-                    <img src="img/logos/the-new-york-times.png" alt="Customer photo" />
-                    <img src="img/logos/usa-today.png" alt="Customer photo" />
-                </div>
+
+        <section class="section-meals">
+            <div class="container center-text">
+                <span class="subheading">
+
+                    <h2 class="heading-secondary">
+                        Omnifood AI chooses from 5,000+ recipes
+                    </h2>
+                </span>
             </div>
+            <div class="container grid grid--3-cols">
+                <div class="meal">
+                    <img src="img/meals/meal-1.jpg" class="meal-img" />
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegetarian">Vegetarian</span>
+                        </div>
+                        <p class="meal-title">Japaneze Gyozas</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong>calories</span>
+
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <span>Nutriscore &reg;<strong>74</strong></span>
+
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong>rating (537)</span>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="meal">
+                    <img src="img/meals/meal-2.jpg" class="meal-img" />
+                    <div class="meal-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegetarian">Vegan</span>
+                            <span class="tag tag--vegetarian">Paleo</span>
+                        </div>
+                        <p class="meal-title">Avacado Salad</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>400</strong>calories</span>
+
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <span>Nutriscore &reg;<strong>92</strong></span>
+
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.8</strong>rating (441)</span>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
         </section>
+
     </main>
 </body>
 
