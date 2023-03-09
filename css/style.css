@@ -172,3 +172,24 @@
 .step-img {
     width: 35%;
 }
+
+.container-logo {
+    color: #888;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.main-logo {
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.logos {
+    filter: grayscale(100%);
+    display: inline-block;
+    margin: 0 auto;
+
+}
