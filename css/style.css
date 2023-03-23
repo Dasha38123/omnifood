@@ -191,6 +191,9 @@
 .logos {
     filter: opacity(30%);
     padding-bottom: 70px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 /* MEALS SECTION */
