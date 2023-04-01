@@ -195,3 +195,17 @@ body {
 .margin-bottom-md {
     margin-bottom: 4.8rem !important;
 }
+
+.btn--form {
+    background-color: #45260a;
+    color: #fdf2e9;
+    padding: 1.2rem;
+    align-self: flex-end;
+
+
+}
+
+.btn--form:hover {
+    background-color: #fff;
+    color: #555;
+}
