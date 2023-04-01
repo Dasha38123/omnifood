@@ -116,6 +116,32 @@
     font-weight: 700;
 }
 
+/*Logos*/
+.section-featured {
+    padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: #888;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
 /* HOW IT WORKS SECTION */
 
 .section-how {
@@ -173,28 +199,6 @@
     width: 35%;
 }
 
-/* LOGO SECTION */
-
-.container-logo {
-    color: #888;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.main-logo {
-    align-self: center;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-}
-
-.logos {
-    filter: opacity(30%);
-    padding-bottom: 70px;
-    gap: 30px;
-    display: flex;
-    justify-content: center;
-}
 
 /* MEALS SECTION */
 
@@ -318,34 +322,25 @@
     color: #6f6f6f;
 }
 
-.gallery-img {
-    width: 190px;
-    height: 190px;
-    margin: 5px;
+/*Gallery*/
+.gallery-item {
+    overflow: hidden;
 }
 
-/*Logos*/
-.section-featured {
-    padding: 4.8rem;
+.gallery-item img {
+    width: 100%;
+    transition: all 0.4s;
 }
 
-.heading-featured-in {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 0.75px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 2.4rem;
-    color: #888;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+
 }
 
-.logos {
-    display: flex;
-    justify-content: space-around;
-}
 
-.logos-img {
-    height: 3.2rem;
-    filter: brightness(0);
-    opacity: 50%;
+.gallery-item img:hover {
+    transform: scale(1.1);
 }
