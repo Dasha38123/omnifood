@@ -433,7 +433,7 @@
 }
 
 .pricing-card--starter {
-    justify-content: end;
+    justify-self: end;
     border: 2px solid #fdf2e9;
 }
 
