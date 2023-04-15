@@ -205,8 +205,7 @@ body {
     color: #fdf2e9;
     padding: 1.2rem;
     align-self: flex-end;
-
-
+    cursor: pointer;
 }
 
 .btn--form:hover {
