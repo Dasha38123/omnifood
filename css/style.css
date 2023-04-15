@@ -422,26 +422,26 @@
 }
 
 /*PRICING-SECTION*/
-.starter-card {
-    border-radius: 11px;
-
-
-}
-
 .section-pricing {
     padding: 9.6rem 0;
+}
+
+.pricing-card {
+    border-radius: 11px;
+    width: 75%;
+    padding: 4.6rem;
 }
 
 .pricing-card--starter {
     justify-content: end;
     border: 2px solid #fdf2e9;
-
 }
 
 .pricing-card--complete {
     background-color: #fdf2e9;
 
     position: relative;
+    overflow: hidden;
 }
 
 .pricing-card--complete::after {
@@ -456,14 +456,8 @@
     transform: rotate(45deg);
     top: 6%;
     right: -18%;
-    overflow: hidden;
 }
 
-.pricing-card {
-    border-radius: 11px;
-    width: 75%;
-    padding: 4.6rem;
-}
 
 .card-name {
     display: block;
@@ -476,7 +470,6 @@
 }
 
 .card-header {
-    /*padding: 3.2rem 4.8rem 4.8rem 4.8rem;*/
     padding-bottom: 4.6rem;
     text-align: center;
 }
