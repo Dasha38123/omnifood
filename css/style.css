@@ -584,6 +584,14 @@
     margin-bottom: 2.4rem;
 }
 
+.footer-list {
+    list-style: none;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .footer-link {
     text-decoration: none;
     font-size: 1.6rem;
@@ -593,10 +601,4 @@
 
 .footer-link:hover {
     color: #555;
-}
-
-.footer-list {
-    list-style-type: none;
-    margin-bottom: 2rem;
-    color: #767676;
 }
